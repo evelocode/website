@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./code/navbar.css">
+    <link rel="stylesheet" href="./code/background.css">
+    <link rel="stylesheet" href="./code/window.css">
+    <link rel="stylesheet" href="./code/intro.css">
+    <link rel="icon" href="./media/icon.png">
+    <title>EveloCode</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="./media/header.png" alt="">
+        </div>
+        <div class="navbar-right">
+            <button class="nav-btn">Home</button>
+            <button class="nav-btn">Discord</button>
+            <button class="nav-btn">Apps</button>
+            <button class="nav-btn">Report</button>
+            <button class="nav-btn">Contact</button>
+            <button class="nav-btn">About</button>
+            <hamberger>
+                <button class="header-button" onclick="scrollMenu(this)">
+                  <div class="hamberger-container">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </button>
+            </hamberger>
+        </div>
+    </div>
+    <div class="dropdown">
+        <li><a href="#" class="page">Home</a></li>
+        <li><a href="#">Discord</a></li>
+        <li><a href="#">Apps</a></li>
+       <li><a href="#">Report</a></li>
+       <li><a href="#">Contact</a></li>
+       <li><a href="#">About</a></li>
+    </div>
+    <div class="window">
+        <div class="splash">
+            <img src="./media/logo.png" data-aos="zoom-in" data-aos-duration="500">
+        </div>
+        <h1 class="wellcome" data-aos="fade-right" data-aos-duration="500"data-aos-delay="">Welcome To EveloCode</h1>
+        <h2 class="wellcome-subtext" data-aos="fade-left" data-aos-duration="500"data-aos-delay="">Minimalistic Web Experience</h2>
+    </div>
+    <div class="window">
+        <div class="intro"><br><br><br><br>
+            <hr data-aos="fade-down-right" data-aos-duration="500">
+            <h2  data-aos="fade-right" data-aos-duration="500">Introduction</h2>
+            <hr data-aos="fade-up-left" data-aos-duration="500">
+            <h3 data-aos="fade-left" data-aos-duration="500">RedFlexLab is a newly born company. <br> We are on a mission to become a top tier <br> Web design and devalopment service. <br>RedFlexLab is a newly born company. <br>
+                There are many creative projects coming up.
+            </h3>
+        </div>
+    </div>
+    <div class="window">
+        <div class="intro">
+            <hr data-aos="fade-down-right" data-aos-duration="500">
+            <h2 data-aos="fade-right" data-aos-duration="500">Partnership</h2>
+            <hr data-aos="fade-down-left" data-aos-duration="500">
+            <h3 data-aos="fade-left" data-aos-duration="500">We reacently collaborated with EveloCode. <br> A Small Web-development Service like us. <br>We are currently woking on a media platform.</h3>
+        </div>
+    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="./code/navbar.js"></script>
+</body>
+</html>

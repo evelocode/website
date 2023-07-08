@@ -1,0 +1,42 @@
+/*asap*/@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+/*popins*/@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.intro h2{
+    font-size: 3rem;
+    color: white;
+    height: 3rem;
+    margin: 0 0 0.8rem 0;
+    z-index: 3;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+ hr{
+    background-color: white;
+    width: 20rem;
+    border: 1px solid rgb(255, 255, 255);
+    height: 3px;
+    margin-top: 8px;
+}
+
+.intro h3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 3rem 0 15rem 0;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-family: "Poppins", sans-serif;
+}
+@media(max-width: 750px ){
+    .intro h3{
+        font-size: 1.5rem;
+    }
+}
